@@ -6,7 +6,7 @@ const port = 4005;
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 
 app.get("/", async (req, res) => {
